@@ -1,6 +1,6 @@
 class Main {
 
-    public static class GenericClass<T> { 
+  public static class GenericClass<T> { 
   private T value; 
   
     public GenericClass(T value) 
