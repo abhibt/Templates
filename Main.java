@@ -1,5 +1,10 @@
 class Main {
 
+  /*
+  A class which depending on how it is instantiated,
+  becomes of that type. For example, when an integer is passed,
+  it returns integer, if a string is passed, it becomes a string.
+  */
   public static class GenericClass<T> { 
   private T value; 
   
